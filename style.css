@@ -1,6 +1,14 @@
 :root{
     --fundo: #16325B;
     --cor-text: #0B2F9F;
-    --cor-frente-cartão: #black;
-    --cor-verso-cartão: #black;
+    --cor-frente-cartão: #181C14;
+    --cor-verso-cartão: #181C14;
 }
+
+body{
+    background-color: var(--fundo);
+
+}
+footer{
+    background-color: var(--cor-frente-cartão);
+    color:  var(--cor-verso-cartão)
