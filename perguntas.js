@@ -4,7 +4,7 @@
     'lado ao cubo') 
     criaCartao( 
     'Geografia', 
-    'Tipo de relevo do estado paran?', 
+    'Tipo de relevo do elstado paran?', 
     'é de elevada altitude, formado por planaltos, além de formações de serra, como a Serra Geral e a Serra do Mar') 
     criaCartao( 
     'História', 
