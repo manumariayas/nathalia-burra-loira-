@@ -84,4 +84,6 @@ cartão-resposta p {
 
 .cartão-resposta{
     transform: rotate(180deg);
+    background-color: var(--card-front-color);
+    border: 4px solid var(--destaque);
 }
