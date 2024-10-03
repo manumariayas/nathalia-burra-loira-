@@ -36,7 +36,7 @@ criaCartao(
       'Quimica',
       'O que é um átomo isótopo?',
       ' Átomos de um mesmo elemento com números diferentes de nêutrons.')
-      criaCartao(
+criaCartao(
       'Biologia',
       'O que é a mitose?',
       'Processo de divisão celular que resulta em duas células-filhas idênticas.')
@@ -60,16 +60,24 @@ criaCartao(
   'O que é um angulo reto?',
   'um angulo de 90 graus')
 criaCartao(
-  'Matemática'
-  'Qual é a fórmula da função quadrática?'
-f(x)=ax2+bx+c.
-17-Qual é a fórmula da soma dos ângulos internos de um polígono?  
-(n−2)×180∘(n - 2) 
-18-O que é a Lei de Lenz?
-  Lei que afirma que a direção da corrente induzida em um circuito é tal que cria um campo magnético que se opõe à variação do fluxo magnético que a gerou.
-19- Qual é a fórmula da circunferência de um círculo? 
- C=2πrC = 2 \pi rC=2πr, onde rrr é o raio.-
-20- Quem foi o imperador romano que legalizou o cristianismo? 
- Constantino, o Grande.
+  'Matemática',
+  'Qual é a fórmula da função quadrática?',
+  'f(x)=ax2+bx+c.')
+criaCartao(
+  'Matemática',
+  'Qual é a fórmula da soma dos ângulos internos de um polígono?',
+  '(n-2)x180∘(n - 2)')
+criaCartao(
+  'Fisica',
+  'O que é a Lei de Lenz?',
+  'Lei que afirma que a direção da corrente induzida em um circuito é tal que cria um campo magnético que se opõe à variação do fluxo magnético que a gerou.')
+criaCartao(
+  'Matemática',
+  'Qual é a fórmula da circunferência de um círculo?',
+  'C=2πrC')
+criaCartao(
+  'História',
+  'Quem foi o imperador romano que legalizou o cristianismo?',
+  'Constantino, o Grande.')
 
     
