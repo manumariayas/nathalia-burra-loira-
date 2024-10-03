@@ -1,1 +1,0 @@
-Function cria cartão

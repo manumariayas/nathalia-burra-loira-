@@ -13,7 +13,75 @@ body{
 footer{
     background-color: var(--cor-frente-cartão);
     color:  var(--cor-verso-cartão)
-    position fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
+}
+
+#conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-tracks: space-between;
+    padding: 4rem;
+    gap: 3rem;
+}
+
+.cartão{
+    margin: 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.conteudo-cartão {
+    background-color: var(--card-front-color);
+    text-align: center;
+    height:100% ;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+.counteudo-cartão h3{
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
+}
+
+.conteudo-cartão p {
+    padding: 2rem;
+    margin-top: 4rem;
+    font-size: 1.4vw;
+}
+
+.conteudo-cartão p {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+cartão-resposta p {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.cartão:hover .conteudo-cartão{
+    transform: rotate(180deg);
+}
+
+.cartão-pergunta,
+.cartão-resposta{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cartão-resposta{
+    transform: rotate(180deg);
 }
