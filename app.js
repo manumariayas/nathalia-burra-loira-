@@ -1,6 +1,6 @@
 criaCartao
 function criaCartao (categoria, pergunta, resposta){
-let container = documen.getElementBgId('contener')
+let container = documen.getElementBgId('container')
 let cartao = document.criateElement ('article')
 cartao.classNome= 'cartao'
 cartao.innerHtml= 
@@ -14,5 +14,5 @@ cartao.innerHtml=
     </div>
 </div>
 
-container appendChild(cartao);
+container.appendChild(cartao);
 }
