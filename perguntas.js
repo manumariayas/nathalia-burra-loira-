@@ -1,81 +1,75 @@
+criaCartao(
+  'Matemática', 
+  'Qual a formula para calcular o volume de um cone?' , 
+  'area da base x altura / 3'
+)
+criaCartao( 
+  'Matemática' , 
+  'Qual é a fórmula da base de um triângulo?' ,
+ 'base x altura/2'
+)
+criaCartao(
+  'História',
+   'O que é revolução industrial?', 
+  'Período de grandes mudanças econômicas e sociais, marcado pela mecanização da produçao' ,)
+criaCartao(
+  'Quimica' ,
+  ' Quaal é a fórmula química do gás carbônico?',
+  'CO₂')
+  criaCartao(
+    'História' ,
+    'Em que ano ocorreu a Proclamação da República no Brasil?' ,
+    '1889')
     criaCartao( 
-    'Matemática', 
-    'Qual a formula para se calcular o volume de um cubo', 
-    'lado ao cubo') 
-    criaCartao( 
-    'Geografia', 
-    'Tipo de relevo do elstado paran?', 
-    'é de elevada altitude, formado por planaltos, além de formações de serra, como a Serra Geral e a Serra do Mar') 
-    criaCartao( 
-    'História', 
-    'Em que ano ocorreu a revolução francesa?', 
-    'Século XVII') 
-    criaCartao( 
-    'Matemática ',
-    'Qual formula se usa para calcular a soma de dois vetores com abertura de um ângulo qualquer', 
-    'Lei dos cossenos') 
-    criaCartao( 
-    'Quimica', 
-    'Qual radical caracteriza um álcool', 
-    'Hidroxila') 
-    criaCartao( 
-    'Matemática', 
-    'Qual a fórmula da soma de uma progressão aritmética', 
-    '(a1 + an) X an/2') 
-    criaCartao( 
-    'História', 
-    'Quando foi declarada a abolição da escravidão', 
-    '1888') 
-    criaCartao( 
-    'Filosofia', 
-    'Qual a ideia principal', 
-    'Real Madrid') 
-    criaCartao( 
-    'Futebol', 
-    'Na edição da Champions league de 2015, quem foi o autor dos gol na final?', 
-    'Neymar e messi') 
-    criaCartao( 
-    'Futebol', 
-    'Quem foi campeão da última edição da Premier league?', 
-    'Manchester city') 
-    criaCartao( 
-    'Língua estrangeira', 
-    'Qual a origem da língua inglesa?', 
-    'Anglo-saxônica') 
-    criaCartão( 
-    'Língua Portuguesa', 
-    '"Muito" é um advérbio de:', 
-    'Intensidade') 
-    criaCartao( 'Matemática', 
-    'Qual o valor da integrada de um número inteiro?', 
-    '0') 
-    criaCartao( 
-    'Biologia', 
-    'O nome da síndrome causada pela presença de um cromossomo 23 a mais?', 
-    'Síndrome de klinefelter') 
-    criaCartao( 'Biologia', 
-    'Qual o tipo de respiração realizada por anfíbios?', 
-    'branquial, pulmonar ou cutânea, dependendo da espécie e fase de vida') 
-    criaCartao( 
-    'Geografia', 
-    'interespaço transicional brasileiro, uma floresta ombrófila aberta que fica entre a Floresta amazônica, o Cerrado e a Caatinga', 
-    'Mata dos cocais') 
-    criaCartao( 
-    'Matemática', 
-    'Qual a formula para calcular o volume de um cone?', 'Área da base × altura / 3') 
-    criaCartao( 
-    'Japonês', 
-    'Quantos alfabetos são utilizados na língua japonesa hoje?', 'Três') 
-    criaCartao( 
-    'Inglês', 
-    'I\'m 7 years old. Maria is 10 years old. John is not 9 years old. How old is john?', 
-    '8 years old') 
-    criaCartao( 
-    'Literatura', 
-    'Quantos contos noite na taverna tem?', 
-    '5 contos e dois capítulos em terceira pessoa') 
-    criaCartao( 
-    'Extra', 
-    'Qual a linguagem de programação feita para crianças?', 
-    'Python') 
+    'Fisica' ,
+    'Qual o valor aproximado da aceleração da gravidade da Terra?',
+    '98 m/s2', )
+criaCartao(
+  'fisica' ,
+  ' O que é a Lei da Inércia?',
+  ' Um corpo em repouso permanece em repouso e um corpo em movimento permanece em movimento a menos que uma força externa atue sobre ele.')
+criaCartao(
+    'Matemática' ,
+    'Qual a formula da PG',
+    'an = a1 . q(n-1)'), 
+criaCartao(
+      'Quimica',
+      'O que é um átomo isótopo?',
+      ' Átomos de um mesmo elemento com números diferentes de nêutrons.')
+      criaCartao(
+      'Biologia',
+      'O que é a mitose?',
+      'Processo de divisão celular que resulta em duas células-filhas idênticas.')
+criaCartao(
+  'Quimica',
+  'Qual é o principal gás responsável pelo efeito estufa?',
+  'Dióxido de carbono (CO₂).')
+criaCartao(
+  'Fisica', 
+  'Qual a  fórmula da velocidade média?',
+  'v=Δs/Δt')
+criaCartao(
+  'Matemática',
+  'Qual a formula da equação do segundo grau?' ,
+  ' ax2+bx+c=0')
+criaCartao(
+  'Fisica',
+  'Qual a formula da energia Cinetica?',
+  'Ec=12mv2E')
+criaCartao(
+  'O que é um angulo reto?',
+  'um angulo de 90 graus')
+criaCartao(
+  'Matemática'
+  'Qual é a fórmula da função quadrática?'
+f(x)=ax2+bx+c.
+17-Qual é a fórmula da soma dos ângulos internos de um polígono?  
+(n−2)×180∘(n - 2) 
+18-O que é a Lei de Lenz?
+  Lei que afirma que a direção da corrente induzida em um circuito é tal que cria um campo magnético que se opõe à variação do fluxo magnético que a gerou.
+19- Qual é a fórmula da circunferência de um círculo? 
+ C=2πrC = 2 \pi rC=2πr, onde rrr é o raio.-
+20- Quem foi o imperador romano que legalizou o cristianismo? 
+ Constantino, o Grande.
+
     
