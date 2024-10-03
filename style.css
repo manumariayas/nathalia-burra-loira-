@@ -12,7 +12,7 @@ body{
 }
 footer{
     background-color: var(--cor-frente-cartão);
-    color:  var(--cor-verso-cartão)
+    color:  var(--cor-verso-cartão);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -35,15 +35,15 @@ footer{
 }
 
 .conteudo-cartão {
-    background-color: var(--card-front-color);
+    background-color: var(--cor-frente-cartão);
     text-align: center;
     height:100% ;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
 .counteudo-cartão h3{
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
+    color: var(--cor-text);
+    border: 1px solid var(--cor-text);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -84,6 +84,6 @@ cartão-resposta p {
 
 .cartão-resposta{
     transform: rotate(180deg);
-    background-color: var(--card-front-color);
-    border: 4px solid var(--destaque);
+    background-color: var(--cor-verso-cartão);
+    border: 4px solid var(--cor-frente-cartão);
 }
