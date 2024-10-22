@@ -1,0 +1,35 @@
+:root{
+    --fundo: #001F3F;
+    --cor-text: #000000;
+    --cor-frente-cartao: #ffffff;
+    --cor-verso-cartao: #fff;
+}
+
+body{
+    background-color: var(--fundo);
+    margin: 0%;
+
+}
+
+header{
+    background-color: var(--preto);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header a{
+    color: var(--branco);
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: var(--cor-frente-cartao);
+    color:  var(--cor-verso-cartao);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
