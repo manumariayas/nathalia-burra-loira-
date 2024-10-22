@@ -42,4 +42,13 @@ footer{
 }
 .conteudo-cartao{
     background-color: var(--cor-frente-cartao);
+    border: #001F3F;
+    box-shadow: 5px 6px 20px var(--preto);
+
+}
+
+.cartão-resposta{
+    background-color: var(--cor-verso-cartao);
+    margin-top: 5px;
+    padding: 20px;
 }
