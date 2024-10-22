@@ -2,7 +2,7 @@
     --fundo: #001F3F;
     --cor-text: #000000;
     --cor-frente-cartao: #ffffff;
-    --cor-verso-cartao: #fff;
+    --cor-verso-cartao: #9e0000;
 }
 
 body{
@@ -44,6 +44,7 @@ footer{
     background-color: var(--cor-frente-cartao);
     border: #001F3F;
     box-shadow: 5px 6px 20px var(--preto);
+    padding: 20px;
 
 }
 
